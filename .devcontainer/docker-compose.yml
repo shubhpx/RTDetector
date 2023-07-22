@@ -12,3 +12,4 @@ services:
     user: root
     volumes:
       - $DATA:/data
+      - ..:/home/jovyan/work
