@@ -3,5 +3,7 @@ torchvision
 torchaudio
 tqdm
 numpy
+pandas
 matplotlib
+albumentation
 opencv-python
