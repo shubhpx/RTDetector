@@ -1,0 +1,14 @@
+version: '3.0'
+services:
+  rtdetector:
+    image: jupyter/datascience-notebook:latest
+    container_name: rtdetector
+    ports:
+      - 8888:8888
+    environment:
+      JUPYTER_ENABLE_LAB: "yes"
+      JUPYTER_TOKEN: "jupy"
+      GRANT_SUDO : yes
+    user: root
+    volumes:
+      - $DATA:/data
